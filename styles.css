@@ -1,0 +1,166 @@
+
+body {      /*INDEX*/
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 2vw;             /*establece el tamaño del texto*/
+}
+
+#titulo {      /*EMPRESA OLIVARERA*/
+    text-align: center;
+    background-color: #12a20d;
+    color: black;
+    padding: 2vw;   /*relleno superior e inferior y derecho e izquierdo*/
+}
+
+#eleccion {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom,#12a20d, #000101);
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 1vw;
+}
+
+.paginas {
+    flex: 1;
+    margin: 10px;
+    background-color: #4c134e;
+    padding: 1vw;
+}
+
+a:visited{      /*Te cambia el color del enlace usado*/
+    color:#55e831;
+}
+a:hover{      /*Te cambia el color del enlace que vas a pinchar*/
+    color:#573421;
+}
+
+img {          /*modifica todaas las imagenes en general*/
+    max-width: 20%;        /*establece el porcentaje de espacio por imagen segun la pantalla*/
+    height: auto;           /*ajusta automaticamente*/
+    margin-right: 5%;         /*Le pone margen al texto*/
+}
+
+#imagen1 {
+    display: flex;
+    text-align: left;       /*alinea el texto*/
+    align-items: center;    /*alinear pero en lo vertical*/
+    background-color: #aee2eb;  /*color de fondo*/
+    padding: 10px;          /*sirve para separar espacio interno*/         
+}
+
+#imagen2 {
+    text-align: center;
+    background-color: #55e831;
+    padding: 10px;
+}
+
+#imagen3 {
+    display: flex;                  /*para organizar*/
+    align-items: center;            /*alinea el texto verticalmente*/
+    background-color: #573421;
+    color: whitesmoke;          /*color del texto*/
+    padding: 10px;
+    flex-direction: row-reverse;    /*posicion de la imagen*/
+}
+
+#imagen3 p {            /*alinea el texto de la imgagen 3*/
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+
+#imagenpam {
+    align-items: center;
+    height: auto;
+}
+
+        /*Todo lo que es gracias*/
+
+#body.gracias {
+    text-align: center;
+}
+
+
+
+body.pagina2 {
+    text-align: justify;
+    margin: 10px;
+    padding: 10vw;
+  }
+  
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+  }
+
+
+
+#imagendundie {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#imagendundie img {
+    width: 50%;         /* Ajusta el tamaño de la imagen */
+    float: left;
+    margin-right: auto; /* Ajusta el espacio entre la imagen y el texto */
+}
+
+#imagengrax {
+    display: flex;
+    align-items: center;
+}
+
+#imagengrax img {
+    width: 50%; /* Ajusta el tamaño de la imagen */
+    float: left;
+    margin-right: 20px; /* Ajusta el espacio entre la imagen y el texto */
+}
+
+/* Estilos especificos para pantallas con un ancho de 1250px o menos */
+@media (max-width: 1250px) {
+    #eleccion {
+      margin: 20px;
+    }
+    
+    .paginas {
+      flex-basis: 50%;
+    }
+  
+    img {
+      max-width: 25%;
+    }
+  }
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5%;
+    text-align: center;
+    align-items: down;
+}
+
+
+/* Estilos para los elementos dentro del footer */
+footer p {
+    font-size: 2vw;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+footer a:hover {
+    color: #fff;
+}
