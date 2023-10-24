@@ -128,7 +128,7 @@ body.pagina2 {
 /* Estilos especificos para pantallas con un ancho de 1250px o menos */
 @media (max-width: 1250px) {
     #eleccion {
-      margin: 20px;
+      padding: 20px;
     }
     
     .paginas {
